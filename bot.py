@@ -7,7 +7,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8771022249:AAFbrsRJOcWehW5NQ-KSXYWFdly_KGImmjU")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
@@ -32,7 +32,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if query.data == "deposit":
         text = (
             "💰 Deposit\n\n"
-            "UPI ID: yourupi@okaxis\n\n"
+            "UPI ID: mikacswinpay@oksbi\n\n"
             "Payment karne ke baad screenshot Support ko bhej dein."
         )
 
@@ -52,7 +52,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif query.data == "support":
         text = (
             "🎧 Customer Support\n\n"
-            "Telegram: @YourSupportUsername"
+            "Telegram: @miss_MikaCS"
         )
 
     await query.edit_message_text(text)
