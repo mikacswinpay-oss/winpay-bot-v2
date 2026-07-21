@@ -7,7 +7,9 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN = os.getenv("8771022249:AAFbrsRJOcWehW5NQ-KSXYWFdly_KGImmjU")
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
