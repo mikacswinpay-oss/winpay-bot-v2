@@ -9,6 +9,7 @@ from telegram.ext import (
 
 import os
 
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 print("BOT_TOKEN =", BOT_TOKEN)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
